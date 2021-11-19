@@ -38,40 +38,41 @@ tl1.add({
     duration: 150,
     loop: true
   });
-
+  const eyeOpen = "M 379.5215 420.7102 a 9 9 0 1 0 18 0 a 9 9 0 1 0 -18 0";
+  const eyeClosed = "M 379.5215 420.7102 a 9 1 0 1 0 18 0 a 9 1 0 1 0 -18 0";
   tl2.add({
     targets: eyeTarget,
     d: [
-      { value: 'M 379.5215 420.7102 a 9 1 0 1 0 18 0 a 9 1 0 1 0 -18 0' }
+      { value: eyeClosed }
     ]
   })
   .add({
     targets: eyeTarget,
     d: [
-      { value: 'M 379.5215 420.7102 a 9 9 0 1 0 18 0 a 9 9 0 1 0 -18 0' }
+      { value: eyeOpen }
     ]
   }).add({
     targets: eyeTarget,
     d: [
-      { value: 'M 379.5215 420.7102 a 9 1 0 1 0 18 0 a 9 1 0 1 0 -18 0' }
+      { value: eyeClosed }
     ]
   })
   .add({
     targets: eyeTarget,
     d: [
-      { value: 'M 379.5215 420.7102 a 9 9 0 1 0 18 0 a 9 9 0 1 0 -18 0' }
+      { value: eyeOpen }
     ],
     endDelay: 5000
   }).add({
     targets: eyeTarget,
     d: [
-      { value: 'M 379.5215 420.7102 a 9 1 0 1 0 18 0 a 9 1 0 1 0 -18 0' }
+      { value: eyeClosed }
     ]
   })
   .add({
     targets: eyeTarget,
     d: [
-      { value: 'M 379.5215 420.7102 a 9 9 0 1 0 18 0 a 9 9 0 1 0 -18 0' }
+      { value: eyeOpen }
     ],
     endDelay: 8000
   })
