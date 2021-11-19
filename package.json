@@ -2,16 +2,18 @@
   "name": "bibou",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "src/app.js",
   "scripts": {
-    "dev": "npx parcel src/index.html"
+    "dev": "npx parcel src/index.html",
+    "build": "npx -p parcel-bundler parcel build src/index.html"
   },
   "keywords": [],
   "author": "Antoine DAUTRY",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.1",
-    "parcel": "^2.0.1"
+    "parcel": "^2.0.1",
+    "parcel-bundler": "^1.12.5"
   },
   "dependencies": {
     "animejs": "^3.2.1"
