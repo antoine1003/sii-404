@@ -1,0 +1,19 @@
+{
+  "name": "bibou",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx parcel src/index.html"
+  },
+  "keywords": [],
+  "author": "Antoine DAUTRY",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "parcel": "^2.0.1"
+  },
+  "dependencies": {
+    "animejs": "^3.2.1"
+  }
+}
